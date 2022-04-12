@@ -65,11 +65,13 @@ Sua blusa é azul? Não
 Você gosta de gatos? Sim
 Você está gostando da aula? Sim */
 
-/* let a = 10
+let a = 10
 let b = 25
+let c = b 
 
-a = 25
-b = 10
+b = a
+a = c
+
 
    //reposta:
 console.log("O novo valor de a é", a) // O novo valor de a é 25
