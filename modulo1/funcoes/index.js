@@ -77,3 +77,17 @@ numeroPar(10) */
 }
 
  recebaMensagem("oieeeee") */
+
+
+/*  //3 - Crie uma função para cada uma das operações básicas (soma, subtração, multiplicação e divisão). 
+ Em seguida, peça para o usuário inserir dois números e chame essas 4 
+ funções com esses valores inputados pelo usuário sendo o argumento. 
+ Por fim, mostre no console o resultado das operações:
+ */ */
+
+ //3 - nao soube fazer
+ 
+
+
+
+
