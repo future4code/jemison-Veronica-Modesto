@@ -1,4 +1,4 @@
-// EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
+/* // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
 
 // EXERCÍCIO 0A
 function soma(num1, num2) {
@@ -35,78 +35,87 @@ function imprimeIdade() {
   
   let imprimeIdade = anoAtual - anoNascimento 
  
-  console.log(imprimeIdade)
-}
+  console.log(imprimeIdade) */
+//}
 
-// EXERCÍCIO 03
+/*  // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
- const IMC = peso / (altura * altura)
- 
- console.log(IMC)
+
+ let imc = (peso / (altura * altura))
+ return (imc)
 }
-calculaIMC(85, 1.8)
+calculaIMC(85, 1.8) */
 
 
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
+  const nomePessoa = prompt("Qual o seu nome?")
+  const idadeUser = Number (prompt("Qual a sua idade?"))
+  const email = prompt("Qual o seu e-mail?")
 
-  let nomePessoa = prompt ( "Qual o seu nome?" )
-  let idadeUser = Number( prompt ( "Qual a sua idade?" ))
-  let email = prompt ( "Qual o seu e-mail?" )
-
-  //let imprimeInformacoesUsuario = 
-
-  console.log("Meu nome é",nomePessoa,", tenho",idadeUser,"anos, e o meu e-mail é",email)
+  console.log ('Meu nome é',nomePessoa,'tenho',idadeUser,'anos, e o meu email é',email,'.')
+}
+imprimeInformacoesUsuario()
  
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
 
-}
 
-// EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
-  // implemente sua lógica aqui
+ // EXERCÍCIO 05
+ function imprimeTresCoresFavoritas() {
 
-}
+ let cor1 = [ prompt( "Cite 3 cores favoritas") ]
+ let cor2 = [ prompt( "Cite 3 cores favoritas") ]
+ let cor3 = [ prompt( "Cite 3 cores favoritas") ]
 
-// EXERCÍCIO 06
+  return (cor1, cor2, cor3)
+
+} 
+
+/* // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
-
+  return (string.toUpperCase())
 }
+retornaPrimeiroElemento("Olá") */
 
-// EXERCÍCIO 07
+
+/* // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
-  // implemente sua lógica aqui
-
+  let resultado = (custo / valorIngresso)
+return resultado
 }
+calculaIngressosEspetaculo(3000, 30) */
 
-// EXERCÍCIO 08
+/* // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
-  // implemente sua lógica aqui
+return (string1 >= string2)
 
 }
+checaStringsMesmoTamanho("ola","abc") */
 
-// EXERCÍCIO 09
+/* // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
-  // implemente sua lógica aqui
-
+  return (array[0]) 
 }
+retornaPrimeiroElemento() */
 
-// EXERCÍCIO 10
+/* // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
+ return array[array.length-1]
 
 }
+retornaUltimoElemento() */
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+ array.push(array.splice(0,1)[0])
+return (array) */
 
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
+ return string1.toLowerCase() == string2.toLowerCase()
+ console.log(string1, string2)
 
 }
 
