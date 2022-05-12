@@ -1,0 +1,15 @@
+Resumo dos 7 passos da programação.
+
+O primeiro passo para conseguirmos melhorar o processo de "codar" é ler muito bem o que enunciado está pedindo.
+Para interpretar o que precisar usar e resolver o problema. 
+O segundo passo é retirar todos os dados possível do enunciado e montar um esquema com os elementos "chave".
+O terceiro passo é pensar nas possíveis entradas e saídas do código, ir formando ele conforme os termos citados no enunciado.
+Ou seja, o começo do código.
+O quarto passo é organizar seu raciocínio em esquemas visuais. Colocar tudo dentro de diagramas com começo, meio (s) e fim.
+No quinto passo, você já pode começa a montar o seu código e fazer do jeito que vier na sua mente, coloque
+tudo e monte as melhores soluções. 
+O sexto passo é transcrever tudo para a linguagem que escolher e onde você achar que derá certo. Se estiver funcionando
+então passar para o último passo.
+Enfim, no sétimo passo, damos aquela olhada no código para ver se podemos melhorar! A refatoração ajuda a ler melhor
+o código no futuro ou então alguma pessoa que ler entenderá melhor o seu programa. Veja se pode melhorar o meio, a identação,
+as variáveis e toda a organização do código. Se tudo der certo, então você terminou a sua tarefa! 
