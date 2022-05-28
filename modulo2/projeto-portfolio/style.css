@@ -1,13 +1,16 @@
 h1{
     font-family: fantasy;
-    margin-left: 920px;
+        font-size: 50px;
     
 }
 
 .meu_nome{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 900px;
-    }
+        }
 .links{
-    margin-left: 700px;
+        display: inline
+}
+.textos{
+    font-size: 27px;
+    display: block
 }
